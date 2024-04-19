@@ -16,7 +16,7 @@ Ficheiros que iremos documentar:
 3. Game.cs
 4. Program.cs
 
-![Pong00](https://external-preview.redd.it/zLLrJtpA6d6q8aZXTdHr1EIv0xOehYN4SF0iPD7X9js.gif?width=720&format=mp4&s=a652458ecaed6255f8d64f859ea6c95dcc7062e0)
+![Pong00](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmk1NTZ3ZHVjY3VreHl2aHRsamZ1eW91ZXBkYjJhOTYwY3lscDR5NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aTGwuEFyg6d8c/giphy.gif)
 
  
 ## Pasta Content
@@ -45,7 +45,7 @@ Ficheiros que iremos documentar:
 
 ## Pasta Lib
 
-Esta pasta é destinada a armazenar bibliotecas e módulos de código reutilizáveis que são compartilhados entre vários ficheiros.
-
 • `Ball.cs`: 
+
+
 
