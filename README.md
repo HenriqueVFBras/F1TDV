@@ -92,7 +92,24 @@ Ficheiros que iremos documentar:
 - `LoadContent`: Carrega os recursos gráficos e de áudio necessários para o jogo.
 - `Update`: Atualiza o estado do jogo a cada fotograma.
 - `Draw`: Renderiza os elementos do jogo no ecrã.
-  
+
+## Program.cs
+
+O ficheiro `Program.cs` contém a classe principal `Program`, que serve como ponto de entrada do programa MonoPong.
+
+## Funcionalidades Principais
+
+- Função Main: O método `Main()` é o ponto de entrada do programa. Ele cria uma instância da classe `Pong`, que representa o jogo MonoPong, e a executa chamando o método `Run()`.
+
+- Atributo STAThread: O atributo `[STAThread]` indica que a thread de aplicativo COM será apartada para processamento de mensagens. Isso é comum em aplicativos GUI do Windows para garantir a compatibilidade com certas APIs do Windows.
+
+- Usando a Declaração: O uso da declaração `using` garante que o objeto `game` seja descartado corretamente após a execução do bloco de código, garantindo a liberação de recursos.
+
+Este código é responsável por iniciar o jogo MonoPong e controlar o fluxo de execução do programa.
+
+## Conclusão
+
+Para resumir o projeto MonoPong é um exemplo de desenvolvimento que usa a framework do MonoGame, é um projeto simples mas bem executado e aberto a exploração e conributos pela comunidade
 
 
 
