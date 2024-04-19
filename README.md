@@ -50,11 +50,11 @@ Ficheiros que iremos documentar:
 
 • `Ball.cs`: Está responsavel por representar a bola durante o jogo e controlar o seu comportamento como a fisica da bola , a sua velocidade , posição e direção.
 
-• `Bat.cs`:
+• `Bat.cs`: Representa as duas raquetes durante o jogo e controla a as suas posições, a sua velocidade e a sua colisão com a bola.
 
-• `FrameCounter.cs`:
+• `FrameCounter.cs`: Conta o tempo, os frames e determina a média de frames por segundo, tal como os frames por segundo atuais.
 
-• `Input.cs`:
+• `Input.cs`: Define a classe Keys Up e Keys Down que são os inputs que controlam o movimento das raquetes.
 
 • `Menu.cs`:
 
@@ -65,7 +65,34 @@ Ficheiros que iremos documentar:
 • `Timer.cs`:
 
 
-## Pasta 
+## Game.cs
+
+É a principal do jogo Pong, desenvolvido utilizando a biblioteca MonoGame. Ela controla a lógica do jogo, incluindo inicialização, carregamento de conteúdo, atualização e renderização dos elementos do jogo.
+
+## Funcionalidades Principais
+
+- Início do Jogo: A classe gere a inicialização do jogo, configurando o tamanho do ecrã e outros parâmetros importantes.
+- Carregamento de Conteúdo: Carrega os recursos necessários para o jogo, como texturas, fontes e sons.
+- Atualização do Jogo: Atualiza o estado do jogo a cada fotograma, incluindo a lógica do jogo e interações do utilizador.
+- Renderização do Jogo: Renderiza os elementos do jogo no ecrã, incluindo sprites, pontuações e cronómetros.
+
+## Componentes Principais
+
+- GraphicsDeviceManager: Gerencia as configurações gráficas do dispositivo.
+- SpriteBatch: Utilizado para renderizar sprites no ecrã.
+- Score: Controla e exibe a pontuação do jogo.
+- GamingTimer: Cronómetro utilizado no jogo.
+- Menu: Gerencia e exibe menus interativos.
+- FrameCounter: Conta e exibe o número de fotogramas por segundo.
+- Bat e Ball: Representações dos objetos do jogo, como as raquetes e a bola.
+
+## Funções Principais
+
+- InitializeScreenSize: Inicializa o tamanho do ecrã do jogo.
+- LoadContent: Carrega os recursos gráficos e de áudio necessários para o jogo.
+- Update: Atualiza o estado do jogo a cada fotograma.
+- Draw: Renderiza os elementos do jogo no ecrã.
+  
 
 
 
