@@ -45,7 +45,7 @@ Ficheiros que iremos documentar:
 
 ## Pasta Lib
 
-• `Ball.cs`: 
+• `Ball.cs`: Está responsavel por representar a bola durante o jogo e controlar o seu comportamento como a fisica da bola , a sua velocidade , posição e direção.
 
 
 
