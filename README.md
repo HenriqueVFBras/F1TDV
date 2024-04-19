@@ -56,9 +56,9 @@ Ficheiros que iremos documentar:
 
 • `Input.cs`: Define a classe Keys Up e Keys Down que são os inputs que controlam o movimento das raquetes.
 
-• `Menu.cs`:
+• `Menu.cs`: Representa o menu principal antes do próprio jogo começar e permite escolher se quer jogar com 2 jogadores ou contra o computador.
 
-• `PongSprite.cs`:
+• `PongSprite.cs`: É usada para apresentar na tela os sprites incluindo o incluindo o tempo de jogo, a pontuação, as raquetes e a bola.
 
 • `Score.cs`:
 
@@ -69,14 +69,14 @@ Ficheiros que iremos documentar:
 
 É a principal do jogo Pong, desenvolvido utilizando a biblioteca MonoGame. Ela controla a lógica do jogo, incluindo inicialização, carregamento de conteúdo, atualização e renderização dos elementos do jogo.
 
-## Funcionalidades Principais
+### Funcionalidades Principais
 
 - Início do Jogo: A classe gere a inicialização do jogo, configurando o tamanho do ecrã e outros parâmetros importantes.
 - Carregamento de Conteúdo: Carrega os recursos necessários para o jogo, como texturas, fontes e sons.
 - Atualização do Jogo: Atualiza o estado do jogo a cada fotograma, incluindo a lógica do jogo e interações do utilizador.
 - Renderização do Jogo: Renderiza os elementos do jogo no ecrã, incluindo sprites, pontuações e cronómetros.
 
-## Componentes Principais
+### Componentes Principais
 
 - GraphicsDeviceManager: Gerencia as configurações gráficas do dispositivo.
 - SpriteBatch: Utilizado para renderizar sprites no ecrã.
@@ -86,7 +86,7 @@ Ficheiros que iremos documentar:
 - FrameCounter: Conta e exibe o número de fotogramas por segundo.
 - Bat e Ball: Representações dos objetos do jogo, como as raquetes e a bola.
 
-## Funções Principais
+### Funções Principais
 
 - InitializeScreenSize: Inicializa o tamanho do ecrã do jogo.
 - LoadContent: Carrega os recursos gráficos e de áudio necessários para o jogo.
