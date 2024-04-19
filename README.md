@@ -60,9 +60,9 @@ Ficheiros que iremos documentar:
 
 • `PongSprite.cs`: É usada para apresentar na tela os sprites incluindo o incluindo o tempo de jogo, a pontuação, as raquetes e a bola.
 
-• `Score.cs`:
+• `Score.cs`: Toma conta dos pontos marcados por ambos os jogadores e dos sprites para a respetiva pontuação.
 
-• `Timer.cs`:
+• `Timer.cs`: Apresenta o tempo restante tal como os sprites para o representar.
 
 
 ## Game.cs
