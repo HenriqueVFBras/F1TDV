@@ -2,8 +2,8 @@
 
 Trabalho realizado por:
 - Gabriel Lima / 27935
-- João Melo / 
-- Henrique Brás
+- João Melo / 29940
+- Henrique Brás / 27932
 
 Desenvolvido na framework: [MonoGame](https://monogame.net/)
 
@@ -17,31 +17,33 @@ Ficheiros que iremos documentar:
 4. Program.cs
 
  
-Pasta Content
+## Pasta Content
 
-Imagens:
+### Imagens:
 
-• Background.png: Esta imagem é usada para representar o campo de jogo e tem a resolução de 800x480
-• Ball.png: É usada para representar a bola durante o jogo e tem a resolução de 16x16.
-• Bat.png: Esta imagem representa a raquete do jogador e tem a resolução de 16x100.
+• `Background.png`: Esta imagem é usada para representar o campo de jogo e tem a resolução de 800x480.
 
-Sons:
-• Pong.wav: Este som é usado quando a bola bate na raquete.~
+• `Ball.png`: É usada para representar a bola durante o jogo e tem a resolução de 16x16.
 
- Outros:
+• `Bat.png`: Esta imagem representa a raquete do jogador e tem a resolução de 16x100.
 
-• Content.mgcb: Este arquivo é usado no desenvolvimento de jogos Monogame para gerenciar e compilar ativos de conteúdo, como texturas e sons, para o jogo.
+### Sons:
+• `Pong.wav`: Este som é usado quando a bola bate na raquete.
 
-• Font.spritefont: Define as características visuais de uma fonte usada no jogo, como estilo, tamanho e cor.
+ ### Outros:
 
-• MenuFont.spritefont: Especifica as propriedades visuais de uma fonte específica destinada a ser usada nos menus do jogo.
+• `Content.mgcb`: Este arquivo é usado no desenvolvimento de jogos Monogame para gerenciar e compilar ativos de conteúdo, como texturas e sons, para o jogo.
 
-• TimerFont.spritefont: Define as características visuais de uma fonte usada para exibir o cronômetro dentro do jogo.
+• `Font.spritefont`: Define as características visuais de uma fonte usada no jogo, como estilo, tamanho e cor.
+
+• `MenuFont.spritefont`: Especifica as propriedades visuais de uma fonte específica destinada a ser usada nos menus do jogo.
+
+• `TimerFont.spritefont`: Define as características visuais de uma fonte usada para exibir o cronômetro dentro do jogo.
 
 
-Pasta Lib
+## Pasta Lib
 
 Esta pasta é destinada a armazenar bibliotecas e módulos de código reutilizáveis que são compartilhados entre vários ficheiros.
 
-• Ball.cs: 
+• `Ball.cs`: 
 
