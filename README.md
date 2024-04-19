@@ -78,20 +78,20 @@ Ficheiros que iremos documentar:
 
 ### Componentes Principais
 
-- GraphicsDeviceManager: Gerencia as configurações gráficas do dispositivo.
-- SpriteBatch: Utilizado para renderizar sprites no ecrã.
-- Score: Controla e exibe a pontuação do jogo.
-- GamingTimer: Cronómetro utilizado no jogo.
-- Menu: Gerencia e exibe menus interativos.
-- FrameCounter: Conta e exibe o número de fotogramas por segundo.
-- Bat e Ball: Representações dos objetos do jogo, como as raquetes e a bola.
+- `GraphicsDeviceManager`: Gerencia as configurações gráficas do dispositivo.
+- `SpriteBatch`: Utilizado para renderizar sprites no ecrã.
+- `Score`: Controla e exibe a pontuação do jogo.
+- `GamingTimer`: Cronómetro utilizado no jogo.
+- `Menu`: Gerencia e exibe menus interativos.
+- `FrameCounter`: Conta e exibe o número de fotogramas por segundo.
+- `Bat` e `Ball`: Representações dos objetos do jogo, como as raquetes e a bola.
 
 ### Funções Principais
 
-- InitializeScreenSize: Inicializa o tamanho do ecrã do jogo.
-- LoadContent: Carrega os recursos gráficos e de áudio necessários para o jogo.
-- Update: Atualiza o estado do jogo a cada fotograma.
-- Draw: Renderiza os elementos do jogo no ecrã.
+- `InitializeScreenSize`: Inicializa o tamanho do ecrã do jogo.
+- `LoadContent`: Carrega os recursos gráficos e de áudio necessários para o jogo.
+- `Update`: Atualiza o estado do jogo a cada fotograma.
+- `Draw`: Renderiza os elementos do jogo no ecrã.
   
 
 
