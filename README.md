@@ -15,6 +15,7 @@ Ficheiros que iremos documentar:
 2. Pasta Lib
 3. Game.cs
 4. Program.cs
+   
 
 ![Pong00](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmk1NTZ3ZHVjY3VreHl2aHRsamZ1eW91ZXBkYjJhOTYwY3lscDR5NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aTGwuEFyg6d8c/giphy.gif)
 
@@ -45,7 +46,26 @@ Ficheiros que iremos documentar:
 
 ## Pasta Lib
 
+ Esta pasta tem as classes principais para o funcionamento do jogo.
+
 • `Ball.cs`: Está responsavel por representar a bola durante o jogo e controlar o seu comportamento como a fisica da bola , a sua velocidade , posição e direção.
+
+• `Bat.cs`:
+
+• `FrameCounter.cs`:
+
+• `Input.cs`:
+
+• `Menu.cs`:
+
+• `PongSprite.cs`:
+
+• `Score.cs`:
+
+• `Timer.cs`:
+
+
+## Pasta 
 
 
 
