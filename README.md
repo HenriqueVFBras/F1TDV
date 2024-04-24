@@ -109,7 +109,7 @@ Este código é responsável por iniciar o jogo MonoPong e controlar o fluxo de 
 
 ## Conclusão
 
-Para resumir o projeto MonoPong é um exemplo de desenvolvimento que usa a framework do MonoGame, é um projeto simples mas bem executado e aberto a exploração e conributos pela comunidade
+Para resumir o projeto MonoPong é um exemplo de desenvolvimento que usa a framework do MonoGame, é um projeto simples mas bem executado e aberto a exploração e contributos pela comunidade.
 
 
 
