@@ -1,4 +1,4 @@
-# MonoPong
+# Pong
 
 Trabalho realizado por:
 - Gabriel Lima / 27935
