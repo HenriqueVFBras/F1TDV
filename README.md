@@ -107,6 +107,11 @@ O ficheiro `Program.cs` contém a classe principal `Program`, que serve como pon
 
 Este código é responsável por iniciar o jogo MonoPong e controlar o fluxo de execução do programa.
 
+## Bugs
+
+- Ás vezes a raquete para de se mexer e é preciso soltar a tecla e voltar a pressioná-la para voltar a funcionar(pelos nossos testes verificamos que isso acontece quando ambos os jogadores pressionam uma tecla ao mesmo tempo mas mesmo assim é muito incomum)
+
+
 ## Conclusão
 
 Para resumir o projeto MonoPong é um exemplo de desenvolvimento que usa a framework do MonoGame, é um projeto simples mas bem executado e aberto a exploração e contributos pela comunidade.
